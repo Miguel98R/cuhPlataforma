@@ -28,53 +28,68 @@
   <div class=" contenedor text-center">
       
     <?php include "components/nav.php";?>
-      
+    
+
     <section class="py-2 px-2">
-        <div class="row">
-  <div class="col-3">
-    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-        
-    <a class="nav-link active" id="v-pills-nosotros-tab" data-toggle="pill" href="#v-pills-nosotros" role="tab"
-        aria-controls="v-pills-nosotros" aria-selected="true">Sobre nosotros</a>
+        <!-- Classic tabs -->
+<div class="classic-tabs mx-2">
 
-      <a class="nav-link" id="v-pills-historia-tab" data-toggle="pill" href="#v-pills-historia" role="tab"
-        aria-controls="v-pills-historia" aria-selected="false">Nuestra historia</a>
-      
-        <a class="nav-link" id="v-pills-instalacion-tab" data-toggle="pill" href="#v-pills-instalacion" role="tab"
-        aria-controls="v-pills-instalacion" aria-selected="false">Instalaciones</a>
-      
-        <a class="nav-link" id="v-pills-servicios-tab" data-toggle="pill" href="#v-pills-servicios" role="tab"
-        aria-controls="v-pills-servicios" aria-selected="false">Servicios</a>
-   
-        <a class="nav-link" id="v-pills-futbol-tab" data-toggle="pill" href="#v-pills-futbol" role="tab"
-        aria-controls="v-pills-futbol" aria-selected="false">Equipo de fútbol</a>
-  
-        <a class="nav-link" id="v-pills-seguro-tab" data-toggle="pill" href="#v-pills-seguro" role="tab"
-        aria-controls="v-pills-seguro" aria-selected="false">Seguro</a>
+  <ul class="nav tabs-cyan" id="myClassicTabShadow" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link  waves-light active show" id="nosotros-tab-classic-nostros" data-toggle="tab" href="#nostros-classic-nostros"
+        role="tab" aria-controls="nosotros-classic-nosotros" aria-selected="true">Sobre nosotros</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link waves-light" id="historia-tab-classic-historia" data-toggle="tab" href="#historia-classic-historia"
+        role="tab" aria-controls="historia-classic-historia" aria-selected="false">Nuestra historia</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link waves-light" id="instalaciones-tab-classic-instalaciones" data-toggle="tab" href="#instalaciones-classic-instalaciones"
+        role="tab" aria-controls="instalaciones-classic-instalaciones" aria-selected="false">Instalaciones</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link waves-light" id="servicios-tab-classic-servicios" data-toggle="tab" href="#servicios-classic-servicios"
+        role="tab" aria-controls="servicios-classic-servicios" aria-selected="false">Servicios</a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link waves-light" id="futbol-tab-classic-futbol" data-toggle="tab" href="#futbol-classic-futbol"
+        role="tab" aria-controls="futbol-classic-futbol" aria-selected="false">Equipo de fútbol</a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link waves-light" id="seguro-tab-classic-seguro" data-toggle="tab" href="#seguro-classic-seguro"
+        role="tab" aria-controls="seguro-classic-seguro" aria-selected="false">Seguro</a>
+    </li>
+    
+  </ul>
 
+  <div class="tab-content " id="myClassicTabContentShadow">
+    <div class="tab-pane fade active show" id="nostros-classic-nostros" role="tabpanel" aria-labelledby="nostros-tab-classic-nostros">
+     <?php include "components/nosotros.php";?>
+    </div>
+     <div class="tab-pane fade " id="historia-classic-historia" role="tabpanel" aria-labelledby="historia-tab-classic-historia">
+   <?php include "components/historia.php";?>
+    </div>
+     <div class="tab-pane fade " id="instalaciones-classic-instalaciones" role="tabpanel" aria-labelledby="instalaciones-tab-classic-instalaciones">
+     <?php include "components/instalaciones.php";?>
+    </div>
+    <div class="tab-pane fade" id="servicios-classic-servicios" role="tabpanel" aria-labelledby="servicios-tab-classic-servicios">
+      <?php include "components/servicios.php";?>
+    </div>
+    <div class="tab-pane fade" id="futbol-classic-futbol" role="tabpanel" aria-labelledby="futbol-tab-classic-futbol">
+     <?php include "components/futbol.php";?>
+    </div>
+    <div class="tab-pane fade" id="seguro-classic-seguro" role="tabpanel" aria-labelledby="seguro-tab-classic-seguro">
+    <?php include "components/seguro.php";?>
     </div>
   </div>
 
-  <div class="col-9">
-    <div class="tab-content" id="v-pills-tabContent">
-      
-        <div class="tab-pane fade show active" id="v-pills-nosotros" role="tabpanel" aria-labelledby="v-pills-nosotros-tab"><?php include "components/nosotros.php";?></div>
-      
-        <div class="tab-pane fade" id="v-pills-historia" role="tabpanel" aria-labelledby="v-pills-historia-tab"><?php include "components/historia.php";?></div>
-      
-        <div class="tab-pane fade" id="v-pills-instalacion" role="tabpanel" aria-labelledby="v-pills-instalacion-tab"><?php include "components/instalaciones.php";?></div>
-      
-        <div class="tab-pane fade" id="v-pills-servicios" role="tabpanel" aria-labelledby="v-pills-servicios-tab"><?php include "components/servicios.php";?></div>
-      
-        <div class="tab-pane fade" id="v-pills-futbol" role="tabpanel" aria-labelledby="v-pills-futbol-tab"><?php include "components/futbol.php";?></div>
-      
-        <div class="tab-pane fade" id="v-pills-seguro" role="tabpanel" aria-labelledby="v-pills-seguro-tab">...</div>
-      
-       
-    </div>
-  </div>
 </div>
+<!-- Classic tabs -->
+
     </section>
+
+      
+   
 
    
 
