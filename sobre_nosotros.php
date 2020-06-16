@@ -62,11 +62,11 @@
       
         <div class="tab-pane fade" id="v-pills-historia" role="tabpanel" aria-labelledby="v-pills-historia-tab"><?php include "components/historia.php";?></div>
       
-        <div class="tab-pane fade" id="v-pills-instalacion" role="tabpanel" aria-labelledby="v-pills-instalacion-tab">...</div>
+        <div class="tab-pane fade" id="v-pills-instalacion" role="tabpanel" aria-labelledby="v-pills-instalacion-tab"><?php include "components/instalaciones.php";?></div>
       
-        <div class="tab-pane fade" id="v-pills-servicios" role="tabpanel" aria-labelledby="v-pills-servicios-tab">...</div>
+        <div class="tab-pane fade" id="v-pills-servicios" role="tabpanel" aria-labelledby="v-pills-servicios-tab"><?php include "components/servicios.php";?></div>
       
-        <div class="tab-pane fade" id="v-pills-futbol" role="tabpanel" aria-labelledby="v-pills-futbol-tab">...</div>
+        <div class="tab-pane fade" id="v-pills-futbol" role="tabpanel" aria-labelledby="v-pills-futbol-tab"><?php include "components/futbol.php";?></div>
       
         <div class="tab-pane fade" id="v-pills-seguro" role="tabpanel" aria-labelledby="v-pills-seguro-tab">...</div>
       
