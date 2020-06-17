@@ -29,71 +29,57 @@
       
     <?php include "components/nav.php";?>
     
-
     <section class="py-2 px-2">
         <!-- Classic tabs -->
-<div class="classic-tabs mx-2">
-  <ul class="nav nav-tabs">
-    <li class="nav-item">
-      <a class="nav-link active" data-toggle="tab" href="#nostros-classic-nostros">Sobre nosotros</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#historia-classic-historia">Nuestra historia</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#instalaciones-classic-instalaciones">Instalaciones</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#servicios-classic-servicios">Servicios</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#futbol-classic-futbol">Equipo de fútbol</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#seguro-classic-seguro">Seguro</a>
-    </li>
-  </ul>
+        <div class="classic-tabs mx-2">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active aNavTable" data-toggle="tab" href="#nostros-classic-nostros">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link aNavTable" data-toggle="tab" href="#historia-classic-historia">Nuestra historia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link aNavTable" data-toggle="tab" href="#instalaciones-classic-instalaciones">Instalaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link aNavTable" data-toggle="tab" href="#servicios-classic-servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link aNavTable" data-toggle="tab" href="#futbol-classic-futbol">Equipo de fútbol</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link aNavTable" data-toggle="tab" href="#seguro-classic-seguro">Seguro</a>
+            </li>
+          </ul>
 
-  <div class="tab-content " id="myClassicTabContentShadow">
-    <div class="tab-pane fade active show" id="nostros-classic-nostros" role="tabpanel" aria-labelledby="nostros-tab-classic-nostros">
-     <?php include "components/nosotros.php";?>
-    </div>
-     <div class="tab-pane fade " id="historia-classic-historia" role="tabpanel" aria-labelledby="historia-tab-classic-historia">
-   <?php include "components/historia.php";?>
-    </div>
-     <div class="tab-pane fade " id="instalaciones-classic-instalaciones" role="tabpanel" aria-labelledby="instalaciones-tab-classic-instalaciones">
-     <?php include "components/instalaciones.php";?>
-    </div>
-    <div class="tab-pane fade" id="servicios-classic-servicios" role="tabpanel" aria-labelledby="servicios-tab-classic-servicios">
-      <?php include "components/servicios.php";?>
-    </div>
-    <div class="tab-pane fade" id="futbol-classic-futbol" role="tabpanel" aria-labelledby="futbol-tab-classic-futbol">
-     <?php include "components/futbol.php";?>
-    </div>
-    <div class="tab-pane fade" id="seguro-classic-seguro" role="tabpanel" aria-labelledby="seguro-tab-classic-seguro">
-    <?php include "components/seguro.php";?>
-    </div>
-  </div>
+          <div class="tab-content " id="myClassicTabContentShadow">
+            <div class="tab-pane fade active show" id="nostros-classic-nostros" role="tabpanel" aria-labelledby="nostros-tab-classic-nostros">
+            <?php include "components/nosotros.php";?>
+            </div>
+            <div class="tab-pane fade " id="historia-classic-historia" role="tabpanel" aria-labelledby="historia-tab-classic-historia">
+          <?php include "components/historia.php";?>
+            </div>
+            <div class="tab-pane fade " id="instalaciones-classic-instalaciones" role="tabpanel" aria-labelledby="instalaciones-tab-classic-instalaciones">
+            <?php include "components/instalaciones.php";?>
+            </div>
+            <div class="tab-pane fade" id="servicios-classic-servicios" role="tabpanel" aria-labelledby="servicios-tab-classic-servicios">
+              <?php include "components/servicios.php";?>
+            </div>
+            <div class="tab-pane fade" id="futbol-classic-futbol" role="tabpanel" aria-labelledby="futbol-tab-classic-futbol">
+            <?php include "components/futbol.php";?>
+            </div>
+            <div class="tab-pane fade" id="seguro-classic-seguro" role="tabpanel" aria-labelledby="seguro-tab-classic-seguro">
+            <?php include "components/seguro.php";?>
+            </div>
+          </div>
 
-</div>
-<!-- Classic tabs -->
-
+        </div>
+        <!-- Classic tabs -->
     </section>
-
-      
-   
-
-   
-
   </div>
-
 </div>
 <?php include "components/footer.php";?>
-
-
-
-
-
 
   <!-- End your project here-->
 

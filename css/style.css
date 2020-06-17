@@ -80,3 +80,12 @@ body{
     border-radius: 15cm;
     background-color: #304ffe;
 }
+
+.aNavTable{
+  color: #051937;
+  font-weight: bold;
+}
+
+.aNavTable:hover{
+  color: #051937;
+}
