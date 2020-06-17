@@ -1,0 +1,18 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    
+    background-image: linear-gradient(to left, #051937, #1e4b6c, #40849f, #70c0ce, #adfff9);
+    
+}
+.contenedor {
+    background-color: #09426d;
+    border-radius: 20px;
+    box-shadow: burlywood;
+}
+
+.bg-uno{
+    background-image: linear-gradient(to left, #051937, #1e4b6c, #40849f, #70c0ce, #adfff9);
+}

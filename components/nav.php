@@ -7,20 +7,18 @@
     <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
         <ul class="navbar-nav mx-auto text-md-center text-left">
             <li class="nav-item">
-        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
       </li>
      <li class="nav-item">
         <a class="nav-link" href="sobre_nosotros.php">Nosotros</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Alumnos</a>
+        <a class="nav-link" href="./plataforma/index.php" target="_blank">Plataforma</a>
       </li>
        <li class="nav-item">
         <a class="nav-link" href="#">Ex-Alumnos</a>
       </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#">Docentes</a>
-      </li>
+     
        <li class="nav-item">
         <a class="nav-link" href="#">Preparatoria</a>
       </li>
