@@ -88,3 +88,7 @@ body{
 .aNavTable:hover{
   color: #051937;
 }
+
+.carousel {
+    border-radius: 3%;
+}
