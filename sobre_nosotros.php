@@ -33,33 +33,25 @@
     <section class="py-2 px-2">
         <!-- Classic tabs -->
 <div class="classic-tabs mx-2">
-
-  <ul class="nav tabs-cyan" id="myClassicTabShadow" role="tablist">
+  <ul class="nav nav-tabs">
     <li class="nav-item">
-      <a class="nav-link  waves-light active show" id="nosotros-tab-classic-nostros" data-toggle="tab" href="#nostros-classic-nostros"
-        role="tab" aria-controls="nosotros-classic-nosotros" aria-selected="true">Sobre nosotros</a>
+      <a class="nav-link active" data-toggle="tab" href="#nostros-classic-nostros">Sobre nosotros</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link waves-light" id="historia-tab-classic-historia" data-toggle="tab" href="#historia-classic-historia"
-        role="tab" aria-controls="historia-classic-historia" aria-selected="false">Nuestra historia</a>
+      <a class="nav-link" data-toggle="tab" href="#historia-classic-historia">Nuestra historia</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link waves-light" id="instalaciones-tab-classic-instalaciones" data-toggle="tab" href="#instalaciones-classic-instalaciones"
-        role="tab" aria-controls="instalaciones-classic-instalaciones" aria-selected="false">Instalaciones</a>
+      <a class="nav-link" data-toggle="tab" href="#instalaciones-classic-instalaciones">Instalaciones</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link waves-light" id="servicios-tab-classic-servicios" data-toggle="tab" href="#servicios-classic-servicios"
-        role="tab" aria-controls="servicios-classic-servicios" aria-selected="false">Servicios</a>
+      <a class="nav-link" data-toggle="tab" href="#servicios-classic-servicios">Servicios</a>
     </li>
-     <li class="nav-item">
-      <a class="nav-link waves-light" id="futbol-tab-classic-futbol" data-toggle="tab" href="#futbol-classic-futbol"
-        role="tab" aria-controls="futbol-classic-futbol" aria-selected="false">Equipo de fútbol</a>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#futbol-classic-futbol">Equipo de fútbol</a>
     </li>
-     <li class="nav-item">
-      <a class="nav-link waves-light" id="seguro-tab-classic-seguro" data-toggle="tab" href="#seguro-classic-seguro"
-        role="tab" aria-controls="seguro-classic-seguro" aria-selected="false">Seguro</a>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#seguro-classic-seguro">Seguro</a>
     </li>
-    
   </ul>
 
   <div class="tab-content " id="myClassicTabContentShadow">
