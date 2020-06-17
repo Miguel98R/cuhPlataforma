@@ -7,10 +7,9 @@
           <!-- Content -->
           <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
             <div>
-              <h5><i class="fas fa-chart-pie"></i></h5>
-              <h3 class="green-text card-title pt-2"><strong>Preparatoria</strong></h3>
+              <h3 class="card-title pt-2" style="color: #304ffe"><strong>Preparatoria</strong></h3>
               <p>Atrévete a conocer nuestro sistema de estudios.</p>
-              <a class="btn btn-green"><i class="fas fa-clone left"></i> Ver más</a>
+              <button type="button" class="btn btn-rounded" ><i class="fas fa-clone left"></i> Ver más</button>
             </div>
           </div>
         </div>
@@ -22,10 +21,9 @@
           <!-- Content -->
           <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
             <div>
-              <h5><i class="fas fa-chart-pie"></i></h5>
-              <h3 class=" green-text card-title pt-2"><strong>Licenciatura</strong></h3>
+              <h3 class="card-title pt-2" style="color: #304ffe"><strong>Licenciatura</strong></h3>
               <p>Te ofrecemos la carrera que necesitas</p>
-              <a class="btn btn-green"><i class="fas fa-clone left"></i> Ver más</a>
+              <button type="button" class="btn btn-rounded"><i class="fas fa-clone left"></i> Ver más</a>
             </div>
           </div>
         </div>
@@ -37,10 +35,9 @@
           <!-- Content -->
           <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
             <div>
-              <h5><i class="fas fa-chart-pie"></i></h5>
-              <h3 class=" green-text card-title pt-2"><strong>Maestría</strong></h3>
+              <h3 class="card-title pt-2" style="color: #304ffe"><strong>Maestría</strong></h3>
               <p>Cursa tu maestría en un año 4 meses.</p>
-              <a class="btn btn-green"><i class="fas fa-clone left"></i> Ver más</a>
+              <button type="button" class="btn btn-rounded"><i class="fas fa-clone left"></i> Ver más</a>
             </div>
           </div>
         </div>
