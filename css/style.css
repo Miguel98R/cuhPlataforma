@@ -16,3 +16,11 @@ body{
 .bg-uno{
     background-image: linear-gradient(to left, #051937, #1e4b6c, #40849f, #70c0ce, #adfff9);
 }
+
+
+.contacto {
+    background: linear-gradient(rgba(77, 143, 182, 0.897), rgba(189, 215, 224, 0.9)), url(../img/LOGO-CUH.png);
+    height: 60vh;
+    background-size: cover;
+    color:aliceblue;
+}

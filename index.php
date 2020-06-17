@@ -40,7 +40,17 @@
 
   </div>
 
+
 </div>
+
+
+<section>
+  <div class="container contacto text-center ">
+      <?php include "components/contacto.php";?>
+  </div>
+ 
+</section>
+
 <?php include "components/footer.php";?>
 
 

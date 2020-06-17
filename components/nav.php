@@ -13,7 +13,7 @@
         <a class="nav-link" href="sobre_nosotros.php">Nosotros</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./back/index.php" target="_blank">Plataforma</a>
+        <a class="nav-link" href="./plataforma/index.php" target="_blank">Plataforma</a>
       </li>
        <li class="nav-item">
         <a class="nav-link" href="#">Ex-Alumnos</a>

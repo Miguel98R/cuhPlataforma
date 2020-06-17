@@ -24,11 +24,11 @@
             style=" position: fixed;top: 80%;right: 1%;z-index: 100;" src="img/top.png"></a>
 
     <header id="cabeza">
-        <?php include("components/navAlumno.php");?>
+        
         <div class="container-fluid cabeza">
             <div class="container-fluid ">
                 <h2 class="text-white font-weight-bolder text-center justify-content-center align-content-center py-5"
-                    style=" font-size:50px;">Plataforma CUH
+                    style=" font-size:50px;"><img src="./img/LOGO-CUH.png" alt="" srcset="" width="100" height="100">&nbsp;Plataforma CUH
                 </h2>
                 <?php
  	session_start();
@@ -77,28 +77,29 @@
     <section class="py-2 px-2">
 
     <!-- Classic tabs -->
-<div class="classic-tabs mx-2">
+<div class="classic-tabs  mx-2">
 
-  <ul class="nav tabs-cyan" id="myClassicTabShadow" role="tablist">
+  <ul class="nav tabs-cyan  text-white" id="myClassicTabShadow" role="tablist">
     <li class="nav-item">
-      <a class="nav-link  waves-light active show" id="profile-tab-classic-shadow" data-toggle="tab" href="#profile-classic-shadow"
+      <a class="nav-link text-white waves-light active show" id="profile-tab-classic-shadow" data-toggle="tab" href="#profile-classic-shadow"
         role="tab" aria-controls="profile-classic-shadow" aria-selected="true">Datos personales</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link waves-light" id="follow-tab-classic-shadow" data-toggle="tab" href="#follow-classic-shadow"
+      <a class="nav-link text-white waves-light" id="follow-tab-classic-shadow" data-toggle="tab" href="#follow-classic-shadow"
         role="tab" aria-controls="follow-classic-shadow" aria-selected="false">Historial academico</a>
     </li>
      <li class="nav-item">
-      <a class="nav-link waves-light" id="contact-tab-classic-shadow" data-toggle="tab" href="#adeudo-classic-shadow"
+      <a class="nav-link text-white waves-light" id="contact-tab-classic-shadow" data-toggle="tab" href="#adeudo-classic-shadow"
         role="tab" aria-controls="adeudo-classic-shadow" aria-selected="false">Adeudo</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link waves-light" id="contact-tab-classic-shadow" data-toggle="tab" href="#contact-classic-shadow"
-        role="tab" aria-controls="contact-classic-shadow" aria-selected="false">Proceso de titulación</a>
-    </li>
+    
      <li class="nav-item">
-      <a class="nav-link waves-light" id="servicio-tab-classic-shadow" data-toggle="tab" href="#servicio-classic-shadow"
+      <a class="nav-link  text-white waves-light" id="servicio-tab-classic-shadow" data-toggle="tab" href="#servicio-classic-shadow"
         role="tab" aria-controls="servicio-classic-shadow" aria-selected="false">Servicio social</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white waves-light" id="contact-tab-classic-shadow" data-toggle="tab" href="#contact-classic-shadow"
+        role="tab" aria-controls="contact-classic-shadow" aria-selected="false">Proceso de titulación</a>
     </li>
     
   </ul>
