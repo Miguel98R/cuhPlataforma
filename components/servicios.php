@@ -2,7 +2,7 @@
   <div class="py-2">
     <div class="card cardStyles">
       <div class="card-header  ">
-        <h2>Servicios</h2>
+        <h2>SERVICIOS</h2>
       </div>
       <div class="card-body ">
         <blockquote class="blockquote mb-0">
