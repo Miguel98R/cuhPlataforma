@@ -1,7 +1,8 @@
 <div class="container ">
     <div class="" id="datosPersonales">
-
-        <h2 class="py-5 text-white">Datos personales</h2>
+  <img src="img/sistemas.png" width="100" height="100" >
+        <h2 class="py-3 text-white">Datos personales</h2>
+        
 
 <div class="">
 

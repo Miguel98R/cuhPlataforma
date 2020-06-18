@@ -1,35 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Centro Universitario Hidalguense</title>
-  <!-- MDB icon -->
-  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-  <!-- Google Fonts Roboto -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- Material Design Bootstrap -->
-  <link rel="stylesheet" href="css/mdb.min.css">
-  <!-- Your custom styles (optional) -->
-  <link rel="stylesheet" href="css/style.css">
-</head>
+<?php include "components/head.php";?>
 <body>
 
 <header class="py-4 px-2">
 <!-- Image and text -->
 <div class="row ">
-  <div class="col-md-4 text-right">
-      <img class=" px-1" src="./img/escudoHidalgo.png" alt="" srcset="" width="110" height="110">&nbsp;
-      <img class=" px-1"  src="./img/logoHidalgo.png" alt="" srcset="" width="130" height="110">&nbsp;
-  
+ <div class="col-md-4 col-sm-12 col-lg-4 col-12 text-center py-2">
+      &nbsp;<img class=" px-1" src="./img/escudoHidalgo.png" alt="" srcset="" width="110" height="110">&nbsp;
+     &nbsp; <img class=" px-1"  src="./img/logoHidalgo.png" alt="" srcset="" width="130" height="110">&nbsp;
+
   </div>
  
-  <div class="col-md-8">
+ <div class="col-md-8 col-sm-12 col-lg-8 col-12 text-center py-2">
      <h1 class="text-white text-center" style="font-family: Times New Roman ; font-style: italic;">CENTRO UNIVERSITARIO HIDALGUENSE </h1>
    <h4 class="text-white text-center" style="font-family: Arial;">LA SABIDURÍA ES NUESTRA FUERZA</h4>
 
@@ -48,14 +29,14 @@
 
         <section class="py-5">
             <div class="row">
-                    <div class="col">
+                    <div class="col-md-5">
                           <div class="text-center py-2"  >
                             <img src="./img/LOGO-CUH.png" width="350" height="350">
                              </div>
 
                     </div>
-                    <div class="col">
-                        <h2 class="text-white font-weight-bolder text-center justify-content-center align-content-center "
+                    <div class="col-md-7 ">
+                        <h2 class="text-white font-weight-bolder text-center  justify-content-center align-content-center "
                     style=" font-size:50px;">Plataforma CUH
                 </h2>
                          <blockquote class="blockquote mb-0">

@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Centro Universitario Hidalguense</title>
-  <!-- MDB icon -->
-  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-  <!-- Google Fonts Roboto -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- Material Design Bootstrap -->
-  <link rel="stylesheet" href="css/mdb.min.css">
-  <!-- Your custom styles (optional) -->
-  <link rel="stylesheet" href="css/style.css">
-</head>
+<?php include "components/head.php";?>
 <body>
 
     <a class="d-none d-sm-none  d-md-none  d-lg-block d-xl-blocks" href="#cabeza"> <img title="Ir al inicio"
@@ -48,9 +29,35 @@
         $texto_completo = $datos['nombre'] ." ". $datos['apellido_p']." ". $datos['apellido_m'];
 
         ?>
-                <h4 class="text-white font-weight-bolder text-center justify-content-center align-content-center ">
-                    Bienvenido(a):
-                    <?php echo $texto_completo ?></h4>
+
+                <div class="container">
+                
+                  
+                
+                     <h4 class="text-white font-weight-bolder text-center justify-content-center align-content-center ">
+                         <img src="img/perfil.JPG" width="130" height="170" > 
+                      Bienvenido(a):
+                    <?php echo $texto_completo ?> 
+                   
+                  </h4>
+                  <p class="text-white font-weight-bolder text-center justify-content-center align-content-center "> Matricula: 55567CUH</p>
+                    <p class="text-white font-weight-bolder text-center justify-content-center align-content-center ">  Bimestre:12</p>
+             
+                   
+
+                  </div>
+                 
+
+                </div>
+               
+                
+                
+                
+                
+                
+                
+                
+                
                 <?php }
                  
                  mysqli_free_result($result);
@@ -114,25 +121,16 @@
     </div>
     <div class="tab-pane fade text-white" id="adeudo-classic-shadow" role="tabpanel" aria-labelledby="adeudo-tab-classic-shadow">
        <h2 class="py-5 text-white">Adeudo</h2>
-      <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, totam obcaecati atque inventore reprehenderit facilis. Quidem, in sed. Nam, eum est. Reiciendis cum perferendis sunt officia, illum et quidem blanditiis.  </p>
-      <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, totam obcaecati atque inventore reprehenderit facilis. Quidem, in sed. Nam, eum est. Reiciendis cum perferendis sunt officia, illum et quidem blanditiis.  </p>
-   
+   <?php include "components/adeudo.php "?>
     </div>
     <div class="tab-pane fade text-white" id="contact-classic-shadow" role="tabpanel" aria-labelledby="contact-tab-classic-shadow">
        <h2 class="py-5 text-white">Proceso de titulación</h2>
-      <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione illum distinctio praesentium consectetur iure, voluptates reiciendis minima sit, est molestias suscipit, laboriosam libero error consequuntur rerum in odit fuga. Pariatur.  </p>
-     <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione illum distinctio praesentium consectetur iure, voluptates reiciendis minima sit, est molestias suscipit, laboriosam libero error consequuntur rerum in odit fuga. Pariatur.  </p>
-    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione illum distinctio praesentium consectetur iure, voluptates reiciendis minima sit, est molestias suscipit, laboriosam libero error consequuntur rerum in odit fuga. Pariatur.  </p>
-   
+     <?php include "components/titulacion.php" ?>
     </div>
     <div class="tab-pane fade text-white" id="servicio-classic-shadow" role="tabpanel" aria-labelledby="servicio-tab-classic-shadow">
        <h2 class="py-5 text-white">Servicio social</h2>
-      <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione illum distinctio praesentium consectetur iure, voluptates reiciendis minima sit, est molestias suscipit, laboriosam libero error consequuntur rerum in odit fuga. Pariatur.  </p>
-    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione illum distinctio praesentium consectetur iure, voluptates reiciendis minima sit, est molestias suscipit, laboriosam libero error consequuntur rerum in odit fuga. Pariatur.  </p>
-    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione illum distinctio praesentium consectetur iure, voluptates reiciendis minima sit, est molestias suscipit, laboriosam libero error consequuntur rerum in odit fuga. Pariatur.  </p>
-   
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat alias at molestiae excepturi, sed ab dolorum eos. Voluptatibus accusamus aut magnam quasi eius perspiciatis fugiat placeat? Earum error inventore temporibus.  </p>
-    </div>
+       <?php include "components/servicio.php" ?>
+     </div>
     
   </div>
 
