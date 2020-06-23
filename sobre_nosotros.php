@@ -1,33 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Centro Universitario Hidalguense</title>
-  <!-- MDB icon -->
-  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-  <!-- Google Fonts Roboto -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- Material Design Bootstrap -->
-  <link rel="stylesheet" href="css/mdb.min.css">
-  <!-- Your custom styles (optional) -->
-  <link rel="stylesheet" href="css/style.css">
-</head>
+<?php include "components/head.php";?>
 <body>
 
-  <!-- Start your project here-->  
+   <!-- Start your project here-->  
   
 <?php include "components/header.php";?>
 
 <div class="container-fluid">
-  <div class=" contenedor text-center">
-      
-    <?php include "components/nav.php";?>
+  <?php include "components/nav.php";?>
+
+  <div class="text-center" style="  background-image: url(img/fondo.jpg);">
     
 
     <section class="py-2 px-2">
@@ -36,27 +17,27 @@
 
   <ul class="nav tabs-cyan" id="myClassicTabShadow" role="tablist">
     <li class="nav-item">
-      <a class="nav-link  waves-light active show" id="nosotros-tab-classic-nostros" data-toggle="tab" href="#nostros-classic-nostros"
+      <a class="nav-link text-white  waves-light active show" id="nosotros-tab-classic-nostros" data-toggle="tab" href="#nostros-classic-nostros"
         role="tab" aria-controls="nosotros-classic-nosotros" aria-selected="true">Sobre nosotros</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link waves-light" id="historia-tab-classic-historia" data-toggle="tab" href="#historia-classic-historia"
+      <a class="nav-link text-white waves-light" id="historia-tab-classic-historia" data-toggle="tab" href="#historia-classic-historia"
         role="tab" aria-controls="historia-classic-historia" aria-selected="false">Nuestra historia</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link waves-light" id="instalaciones-tab-classic-instalaciones" data-toggle="tab" href="#instalaciones-classic-instalaciones"
+      <a class="nav-link text-white waves-light" id="instalaciones-tab-classic-instalaciones" data-toggle="tab" href="#instalaciones-classic-instalaciones"
         role="tab" aria-controls="instalaciones-classic-instalaciones" aria-selected="false">Instalaciones</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link waves-light" id="servicios-tab-classic-servicios" data-toggle="tab" href="#servicios-classic-servicios"
+      <a class="nav-link text-white waves-light" id="servicios-tab-classic-servicios" data-toggle="tab" href="#servicios-classic-servicios"
         role="tab" aria-controls="servicios-classic-servicios" aria-selected="false">Servicios</a>
     </li>
      <li class="nav-item">
-      <a class="nav-link waves-light" id="futbol-tab-classic-futbol" data-toggle="tab" href="#futbol-classic-futbol"
+      <a class="nav-link text-white waves-light" id="futbol-tab-classic-futbol" data-toggle="tab" href="#futbol-classic-futbol"
         role="tab" aria-controls="futbol-classic-futbol" aria-selected="false">Equipo de fútbol</a>
     </li>
      <li class="nav-item">
-      <a class="nav-link waves-light" id="seguro-tab-classic-seguro" data-toggle="tab" href="#seguro-classic-seguro"
+      <a class="nav-link  text-white waves-light" id="seguro-tab-classic-seguro" data-toggle="tab" href="#seguro-classic-seguro"
         role="tab" aria-controls="seguro-classic-seguro" aria-selected="false">Seguro</a>
     </li>
     

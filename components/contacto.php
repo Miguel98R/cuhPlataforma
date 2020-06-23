@@ -16,8 +16,8 @@
                 <div class="row">
 
                     <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
+                    <div class="col-md-6 bg-white py-2">
+                        <div class="md-form   mb-0">
                             <input type="text" id="name" name="name" class="form-control">
                             <label for="name" class="">Nombre</label>
                         </div>
@@ -25,8 +25,8 @@
                     <!--Grid column-->
 
                     <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
+                     <div class="col-md-6 bg-white py-2">
+                        <div class="md-form  mb-0">
                             <input type="text" id="email" name="email" class="form-control">
                             <label for="email" class="">Email</label>
                         </div>
@@ -42,9 +42,9 @@
                 <div class="row">
 
                     <!--Grid column-->
-                    <div class="col-md-12">
+                    <div class="col-md-12 bg-white">
 
-                        <div class="md-form">
+                        <div class="md-form ">
                             <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
                             <label for="message">Mensaje</label>
                         </div>

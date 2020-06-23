@@ -1,7 +1,7 @@
 <div class="container">
       <div class="py-2">
 
-        <div class="card light-blue accent-1  text-white">
+        <div class="card bg-uno text-white">
         <div class="card-header  ">
             <h2>Reseña Histórica de nuestra Institución</h2>
         </div>
