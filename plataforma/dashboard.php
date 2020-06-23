@@ -105,6 +105,10 @@
         role="tab" aria-controls="servicio-classic-shadow" aria-selected="false">Servicio social</a>
     </li>
     <li class="nav-item">
+      <a class="nav-link text-white waves-light" id="protocolo-tab-classic-shadow" data-toggle="tab" href="#protocolo-classic-shadow"
+        role="tab" aria-controls="protocolo-classic-shadow" aria-selected="false">Protocolo de titulación</a>
+    </li>
+    <li class="nav-item">
       <a class="nav-link text-white waves-light" id="contact-tab-classic-shadow" data-toggle="tab" href="#contact-classic-shadow"
         role="tab" aria-controls="contact-classic-shadow" aria-selected="false">Proceso de titulación</a>
     </li>
@@ -123,14 +127,19 @@
        <h2 class="py-5 text-white">Adeudo</h2>
    <?php include "components/adeudo.php "?>
     </div>
+      <div class="tab-pane fade text-white" id="servicio-classic-shadow" role="tabpanel" aria-labelledby="servicio-tab-classic-shadow">
+       <h2 class="py-5 text-white">Servicio social</h2>
+       <?php include "components/servicio.php" ?>
+     </div>
+      <div class="tab-pane fade text-white" id="protocolo-classic-shadow" role="tabpanel" aria-labelledby="protocolo-tab-classic-shadow">
+       <h2 class="py-5 text-white">Protocolo de titulación</h2>
+       <?php include "components/protocolo.php" ?>
+     </div>
     <div class="tab-pane fade text-white" id="contact-classic-shadow" role="tabpanel" aria-labelledby="contact-tab-classic-shadow">
        <h2 class="py-5 text-white">Proceso de titulación</h2>
      <?php include "components/titulacion.php" ?>
     </div>
-    <div class="tab-pane fade text-white" id="servicio-classic-shadow" role="tabpanel" aria-labelledby="servicio-tab-classic-shadow">
-       <h2 class="py-5 text-white">Servicio social</h2>
-       <?php include "components/servicio.php" ?>
-     </div>
+  
     
   </div>
 

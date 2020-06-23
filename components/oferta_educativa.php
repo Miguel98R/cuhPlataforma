@@ -30,7 +30,7 @@
    <h5><i class="fas fa-chart-pie"></i></h5>
       <h3 class=" green-text card-title pt-2"><strong>Licenciatura</strong></h3>
       <p>Te ofrecemos la carrera que necesitas</p>
-      <a class="btn btn-green"><i class="fas fa-clone left"></i> Ver más</a>
+      <a class="btn btn-green" href="./licenciatura.php"><i class="fas fa-clone left"></i> Ver más</a>
     </div>
   </div>
 
@@ -48,7 +48,7 @@ style="background-image: url('./img/LOGO-POSGRADO.png');">
      <h5><i class="fas fa-chart-pie"></i></h5>
       <h3 class=" green-text card-title pt-2"><strong>Maestría</strong></h3>
       <p>Cursa tu maestría en un año 4 meses.</p>
-      <a class="btn btn-green"><i class="fas fa-clone left"></i> Ver más</a>
+      <a class="btn btn-green" href="./posgrado.php"><i class="fas fa-clone left"></i> Ver más</a>
     </div>
   </div>
 
