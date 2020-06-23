@@ -2,7 +2,7 @@
   <div class="py-2">
     <div class="card cardStyles">
       <div class="card-header  ">
-        <h2>SERVICIOS</h2>
+        <h2>Servicios</h2>
       </div>
       <div class="card-body ">
         <blockquote class="blockquote mb-0">
@@ -21,9 +21,9 @@
                   </div>
                 </div>
                 <div class="card-body flip-card-back">
-                  <div class="text-center ">
+                  <div class="text-center ">                    
                     <strong><h3 class="blue-text">Horario de Servicio</h3> </strong>
-                    <p class="text-dark">Lunes-Viernes: 7:00 - 22:00 <br>  Sábado: 7:00 - 16:00</p>
+                    <p class="text-white">Lunes - Viernes: 7:00 - 22:00 <br>  Sábado: 7:00 - 16:00</p>
                   </div>
                 </div>
               </div>
@@ -45,7 +45,7 @@
                 <div class="card-body flip-card-back">
                   <div class="text-center ">
                     <strong><h3 class="blue-text">Horario de Servicio</h3> </strong>
-                    <p class="text-dark">Lunes-Viernes: 7:00 - 22:00 <br>  Sábado: 7:00 - 16:00</p>
+                    <p class="text-white">Lunes-Viernes: 7:00 - 22:00 <br>  Sábado: 7:00 - 16:00</p>
                   </div>
                 </div>
               </div>
