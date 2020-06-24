@@ -35,10 +35,10 @@
   <!-- </div> -->
 <!-- </nav> -->
  
- <div class="sidebar">
+ <div class="sidebar" >
   <a href="index.php" ><i class="fa fa-fw fa-home"></i> Inicio</a>
   <a href="sobre_nosotros.php" ><i class="fa fa-fw fa-users"></i> Nosotros</a>
-  <a href="./plataforma/index.php" ><i class="fa fa-fw fa-laptop"></i> Plataforma</a>
+  <a href="./plataforma/index.php" target=_blank ><i class="fa fa-fw fa-laptop"></i> Plataforma</a>
   <a href="exalumnos.php" ><i class="fas fa-fw fa-user-graduate"></i> Ex-Alumnos</a>
   <a href="prepa.php" ><i class="fa fa-fw fa-building"></i> Preparatoria</a>
   <a href="licenciatura.php" ><i class="fa fa-fw fa-user-tie"></i> Licenciatura</a>
