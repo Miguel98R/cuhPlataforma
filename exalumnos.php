@@ -5,10 +5,10 @@
   
 <?php include "components/header.php";?>
 
-<div class="container-fluid">
+<div class="container">
   <?php include "components/nav.php";?>
 
-  <div class="text-center" style="  background-image: url(img/fondo.jpg);">
+  <div class="menuAboutUs text-center" style="  background-image: url(img/fondo.jpg);">
 
   
 
