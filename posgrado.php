@@ -1,12 +1,12 @@
 <?php include "components/head.php";?>
 <body>
-
+  <?php include "components/nav.php";?>
   <!-- Start your project here-->  
   
 <?php include "components/header.php";?>
 
 <div class="container-fluid">
-  <?php include "components/nav.php";?>
+
 
   <div class="text-center" style="  background-image: url(img/fondo.jpg);">
 

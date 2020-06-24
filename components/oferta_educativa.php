@@ -1,5 +1,5 @@
 <div class="container-fluid py-2">
-  <h3 class="article__title white-text">OFERTA EDUCATIVA</h3>
+  <h3 class="article__title white-dark">OFERTA EDUCATIVA</h3>
   <div class="row">
     <div class="col-md-4 py-2">
       <!-- Card -->

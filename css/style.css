@@ -1,84 +1,79 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    
-    background-image: linear-gradient(to left, #051937, #1e4b6c, #40849f, #70c0ce, #adfff9);
-    
+body{  
+  background-image: linear-gradient(to left, #051937, #1e4b6c, #40849f, #70c0ce, #adfff9);   
 }
 .contenedor {
-    background-image: url('../img/fondo1.png');
-    /* background-color: #09426d; */
-    border-radius: 20px;
-    box-shadow: burlywood;
-    opacity: 90%;
+  background-image: url('../img/fondo1.png');
+  /* background-color: #09426d; */
+  border-radius: 20px;
+  box-shadow: burlywood;
+  opacity: 90%;
 }
 
 .bg-uno{
-    background-color: #1C2331;
+  background-color: #1C2331;
 }
 
 .card {
-    box-shadow: 11px 11px 19px -10px rgba(0,0,0,0.81);
-    background-color: -o-linear-gradient(45deg, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%); ;
-    color: black;
+  box-shadow: 11px 11px 19px -10px rgba(0,0,0,0.81);
+  background-color: -o-linear-gradient(45deg, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%); ;
+  color: black;
 }
 
 .cardStyles {
-    box-shadow: 11px 11px 19px -10px rgba(0,0,0,0.81);
-    background-color: -o-linear-gradient(45deg, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%); ;
-    color: black;
+  box-shadow: 11px 11px 19px -10px rgba(0,0,0,0.81);
+  background-color: rgb(189, 188, 188);
+  opacity: 88%;
+  color: black;
 }
 
-  .flip-card {
-    background-color: transparent;
-    width: 500px;
-    height: 500px;
-    perspective: 1000px;
-  }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 80%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    box-shadow: 11px 11px 19px -10px rgba(0,0,0,0.81);
-  }
-  
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  .flip-card-back {
-    background-color:black;
-    color: black;
-    transform: rotateY(180deg);
-    opacity:63%;
-  }
+.flip-card {
+  background-color: transparent;
+  width: 470px;
+  height: 470px;
+  perspective: 1000px;
+}
 
-#myClassicTabShadow{
-    background-color: #1e88e5 blue; 
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  box-shadow: 11px 11px 19px -10px rgba(0,0,0,0.81);
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color:black;
+  color: black;
+  transform: rotateY(180deg);
+  opacity:63%;
 }
 
 .btn {
-    border-radius: 15cm;
-    background-color: #304ffe;
+  border-radius: 15cm;
+  background-color: #304ffe;
 }
 
 .aNavTable{
@@ -91,12 +86,61 @@ body{
 }
 
 .carousel {
-    border-radius: 3%;
+  border-radius: 3%;
 }
 
-.contacto {
-    
-    height: 60vh;
-    background-size: cover;
-    color:aliceblue;
+.contacto { 
+  height: 60vh;
+  background-size: cover;
+  color:aliceblue;
+}
+
+.sidebar {
+  height: 100%;
+  width: 130px;
+  position: fixed;
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background-color: rgb(189, 188, 188);
+  opacity: 88%;    
+  overflow-x: hidden;
+  padding-top: 16px;
+  box-shadow: 7px 4px 14px -3px rgba(0,0,0,0.75);
+}
+  
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+}
+  
+.sidebar a:hover {
+  background-color: #1c2cb8;
+  color: white;
+  box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.75);
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 13px;}
+}
+.container{
+  max-width: 80%;
+}
+.nav-pills .nav-link.active{
+  background-color: #1c2cb8;
+  box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.75);
+  color: white !important;
+}
+
+.menuAboutUs{
+  border-radius: 3%;
 }

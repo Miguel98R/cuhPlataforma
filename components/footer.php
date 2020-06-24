@@ -1,4 +1,4 @@
-<!-- Footer -->
+<!-- Footer -->  
 <footer class="page-footer font-small transparent darken-3">
 
   <!-- Footer Elements -->
@@ -36,10 +36,12 @@
 
     </div>
     <!-- Grid row-->
+    <div class="text-center">
+            <button type="button" class="btn btn-primary">Aviso de privacidad</button>
+        </div> 
 
   </div>
   <!-- Footer Elements -->
-
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
     <a href="#"> Centro Universitario Hidalguense </a>
