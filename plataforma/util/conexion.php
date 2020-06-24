@@ -6,7 +6,7 @@ if(!isset($_SESSION)){
 
 
 $conn = new mysqli('localhost','root','','materias');
-//$conn = new mysqli('sql311.tonohost.com','ottos_25548322','WYMIKE98','ottos_25548322_materias');
+//$conn = new mysqli('localhost','id14131507_root','af9i8qwjb}4yfcVz','id14131507_materias');
 
 
 // if(isset($conn)){
