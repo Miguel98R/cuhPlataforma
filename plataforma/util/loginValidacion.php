@@ -2,8 +2,6 @@
 
 include("conexion.php");
 
-
-global $user ;
 $user = $_POST['user'];
 $psw = $_POST['psw'];
 
