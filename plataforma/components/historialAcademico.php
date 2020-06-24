@@ -1,6 +1,49 @@
 <div class="container">
     <div class="justify-content-center align-content-center " id="historialAcademico">
-        <h2 class="py-5 text-white">Historial académico</h2>
+        <h2 class="py-5 text-white">Boleta de calificaciónes</h2>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4 text-white">
+                    Periodo Abril - Junio 2020
+                </div>
+                <div class="col-md-4">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                    Solicita tu historial academico
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                    aria-hidden="true">
+
+                    <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Historial academico</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptate omnis doloribus dicta est suscipit at earum aliquam asperiores nostrum doloremque rem impedit voluptatum, officiis vel? Soluta nesciunt minus nam.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                                    </div>
+                                </div>
+                            </div>
         <table class="table table-striped">
             <thead class="cabeza text-white ">
                 <tr>

@@ -1,5 +1,6 @@
 <!--Section: Contact v.2-->
 <section class="mb-4">
+    <div class="container py-3">
 
     <!--Section heading-->
     <h2 class="h1-responsive font-weight-bold text-center my-4">Contacto</h2>
@@ -84,3 +85,7 @@
 
 </section>
 <!--Section: Contact v.2-->
+    
+    
+    </div>
+    

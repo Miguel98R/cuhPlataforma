@@ -5,7 +5,7 @@
             style=" position: fixed;top: 80%;right: 1%;z-index: 100;" src="img/top.png"></a>
 
     <header id="cabeza">
-        
+         <?php include "components/nav.php"?>
         <div class="container-fluid cabeza">
             <div class="container-fluid ">
                 <h2 class="text-white font-weight-bolder text-center justify-content-center align-content-center py-5"
@@ -93,7 +93,7 @@
     </li>
     <li class="nav-item">
       <a class="nav-link text-white waves-light" id="follow-tab-classic-shadow" data-toggle="tab" href="#follow-classic-shadow"
-        role="tab" aria-controls="follow-classic-shadow" aria-selected="false">Historial academico</a>
+        role="tab" aria-controls="follow-classic-shadow" aria-selected="false">Calificaciones</a>
     </li>
      <li class="nav-item">
       <a class="nav-link text-white waves-light" id="contact-tab-classic-shadow" data-toggle="tab" href="#adeudo-classic-shadow"
