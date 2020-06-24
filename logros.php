@@ -27,110 +27,132 @@
 
     <div class="row">
         <div class="col-md-12">
-            <section class="py-2 px-2">
+          <section class="py-2 px-2">
 
+            <div class="container text-center py-4" style="padding-bottom: 100px !important;">
+                <div class="row">
 
+                    <div class="col-md-4" style="width:280px;height:300px;">
+                      <div class="flip-card2 col-md-4 py-2">
+                        <div class="flip-card-inner2" style="width:280px;height:300px;">
+                          <div class="flip-card-front2 danger-color-dark">
+                            <img  src="img/sistemas.png" alt="Card image cap" style="width:250px;height:250px;">
+                            <div class="card-body red darken-2">
+                              <h3 class="text-white font-weight-bold">Ingeniería en sistemas computacionales</h3>
+                            </div>
+                          </div>
+                          <div class="flip-card-back2 d-flex align-items-center justify-content-center">
+                            <a data-toggle="modal" href="#myModal">
+                              <button id="myBtn" type="button" class="btn btn-outline-info" >Ver logros</button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
-  <div class="container text-center py-4">
-      <div class="row">
-          <div class="col-md-4 py-2">
-              <div class="card  danger-color-dark" style="width: 18rem;">
- <a data-toggle="modal" href="#myModal"><img class="card-img-top px-3 py-1" src="img/sistemas.png" alt="Card image cap"></a> 
-  <div class="card-body red darken-2">
- 
-    <h3 class="text-white font-weight-bold">Ingeniería en sistemas computacionales</h3>
-  </div>
-</div>
+                    <div class="col-md-4" style="width:280px;height:300px;">
+                      <div class="flip-card2 col-md-4 py-2">
+                        <div class="flip-card-inner2" style="width:280px;height:300px;">
+                          <div class="flip-card-front2 red lighten-3">
+                            <img  src="img/administracion.png" alt="Card image cap" style="width:250px;height:250px;">
+                            <div class="card-body pink lighten-1">
+                              <h3 class="text-white font-weight-bold">Administración y sistemas computacionales</h3>
+                            </div>
+                          </div>
+                          <div class="flip-card-back2 d-flex align-items-center justify-content-center">
+                            <a data-toggle="modal" href="#myModal">
+                              <button id="myBtn" type="button" class="btn btn-outline-info" >Ver logros</button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
+                    <div class="col-md-4" style="width:280px;height:300px;">
+                      <div class="flip-card2 col-md-4 py-2">
+                        <div class="flip-card-inner2" style="width:280px;height:300px;">
+                          <div class="flip-card-front2 green lighten-2">
+                            <img  src="img/contaduria.png" alt="Card image cap" style="width:250px;height:250px;">
+                            <div class="card-body green accent-3">
+                              <h3 class="text-white font-weight-bold">Contaduría y sistemas fiscales</h3>
+                            </div>
+                          </div>
+                          <div class="flip-card-back2 d-flex align-items-center justify-content-center">
+                            <a data-toggle="modal" href="#myModal">
+                              <button id="myBtn" type="button" class="btn btn-outline-info" >Ver logros</button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
-              
+                  </div>
 
-          </div>
-          <div class="col-md-4 py-2">
+                  
+                  <div class="row py-3" style="margin-top: 100px;">
 
-                     <div class="card  red lighten-3" style="width: 18rem;">
- <a href=""><img class="card-img-top px-3 py-1" src="img/administracion.png" alt="Card image cap"></a> 
-  <div class="card-body pink lighten-1">
- 
-    <h3 class="text-white font-weight-bold">Administración y sistemas computacionales</h3>
-  </div>
-</div>
-        
+                    <div class="col-md-4" style="width:280px;height:300px;">
+                      <div class="flip-card2 col-md-4 py-2">
+                        <div class="flip-card-inner2" style="width:280px;height:300px;">
+                          <div class="flip-card-front2 cyan darken-3">
+                            <img  src="img/derecho.png" alt="Card image cap" style="width:250px;height:250px;">
+                            <div class="card-body cyan darken-2">
+                              <h3 class="text-white font-weight-bold">Derecho</h3>
+                            </div>
+                          </div>
+                          <div class="flip-card-back2 d-flex align-items-center justify-content-center">
+                            <a data-toggle="modal" href="#myModal">
+                              <button id="myBtn" type="button" class="btn btn-outline-info" >Ver logros</button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
-          </div>
-          <div class="col-md-4 py-2">
+                    <div class="col-md-4" style="width:280px;height:300px;">
+                      <div class="flip-card2 col-md-4 py-2">
+                        <div class="flip-card-inner2" style="width:280px;height:300px;">
+                          <div class="flip-card-front2 lime darken-4">
+                            <img  src="img/psicologia.png" alt="Card image cap" style="width:250px;height:250px;">
+                            <div class="card-body lime darken-3">
+                              <h3 class="text-white font-weight-bold">Psicología</h3>
+                            </div>
+                          </div>
+                          <div class="flip-card-back2 d-flex align-items-center justify-content-center">
+                            <a data-toggle="modal" href="#myModal">
+                              <button id="myBtn" type="button" class="btn btn-outline-info" >Ver logros</button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
-                     <div class="card  green lighten-2" style="width: 18rem;">
- <a href=""><img class="card-img-top px-3 py-1" src="img/contaduria.png" alt="Card image cap"></a> 
-  <div class="card-body green accent-3">
- 
-    <h3 class="text-white font-weight-bold">Contaduría y sistemas fiscales</h3>
-  </div>
-</div>
-        
+                    <div class="col-md-4" style="width:280px;height:300px;">
+                      <div class="flip-card2 col-md-4 py-2">
+                        <div class="flip-card-inner2" style="width:280px;height:300px;">
+                          <div class="flip-card-front2 blue-grey darken-4">
+                            <img  src="img/educacion.png" alt="Card image cap" style="width:250px;height:250px;">
+                            <div class="card-body blue-grey darken-3">
+                              <h3 class="text-white font-weight-bold">Ciencias de la educación</h3>
+                            </div>
+                          </div>
+                          <div class="flip-card-back2 d-flex align-items-center justify-content-center">
+                            <a data-toggle="modal" href="#myModal">
+                              <button id="myBtn" type="button" class="btn btn-outline-info" >Ver logros</button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
-          </div>
+                </div>
 
-      </div>
-        <div class="row py-3">
-            <div class="col-md-4 py-2">
+            </div>
 
-                         <div class="card   cyan darken-3" style="width: 18rem;">
- <a href=""><img class="card-img-top px-3 py-1" src="img/derecho.png" alt="Card image cap"></a> 
-  <div class="card-body cyan darken-2">
- 
-    <h3 class="text-white font-weight-bold">Derecho</h3>
-  </div>
-</div>
-        
-
-          </div>
-         <div class="col-md-4 py-2">
-
-                     <div class="card  lime darken-4" style="width: 18rem;">
- <a href=""><img class="card-img-top px-3 py-1" src="img/psicologia.png" alt="Card image cap"></a> 
-  <div class="card-body lime darken-3">
- 
-    <h3 class="text-white font-weight-bold">Psicología</h3>
-  </div>
-</div>
-        
-
-          </div>
-         <div class="col-md-4 py-2">
-
-                     <div class="card  blue-grey darken-4" style="width: 18rem;">
- <a href=""><img class="card-img-top px-3 py-1" src="img/educacion.png" alt="Card image cap"></a> 
-  <div class="card-body blue-grey darken-3">
- 
-    <h3 class="text-white font-weight-bold">Ciencias de la educación</h3>
-  </div>
-</div>
-        
-
-          </div>
-
-      </div>
-
-  </div>
-  
-      
-
-    </section>
+          </section>
         </div>
-        
     </div>
-    
-
-    
-
-    
-   
-
-   
-
   </div>
-
 </div>
 
 <!-- Modal -->
