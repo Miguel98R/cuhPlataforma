@@ -97,7 +97,7 @@ body{
 
 .sidebar {
   height: 100%;
-  width: 160px;
+  width: 125px;
   position: fixed;
   z-index: 1; 
   top: 0;
@@ -110,9 +110,9 @@ body{
 }
   
 .sidebar a {
-  padding: 6px 8px 6px 16px;
+  padding: 8px 6px 8px 6px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   color: black;
   display: block;
 }
