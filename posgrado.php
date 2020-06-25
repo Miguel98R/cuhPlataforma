@@ -1,9 +1,11 @@
 <?php include "components/head.php";?>
   <body>
     <?php include "components/nav.php";?>
+    
       <!-- Start your project here-->   
         <?php include "components/header.php";?>
           <div class="container">
+             <?php include "components/pluginWA.php" ;?>
             <div class="menuAboutUs text-center" style="box-shadow: 1px 2px 16px -2px rgba(0,0,0,0.75);">
               <!-- Card -->
                 <div class="view overlay px-2 py-2">
