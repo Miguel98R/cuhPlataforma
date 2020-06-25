@@ -2,8 +2,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.body {
+  background-color: red;
+}
+
 .contenedor {
-  background-image: url('../img/fondo1.png');
   /* background-color: #09426d; */
   border-radius: 20px;
   box-shadow: burlywood;
