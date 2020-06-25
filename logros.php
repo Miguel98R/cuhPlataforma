@@ -43,7 +43,7 @@
                           </div>
                           <div class="flip-card-back2 d-flex align-items-center justify-content-center">
                             <a data-toggle="modal" href="#myModal">
-                              <button id="myBtn" type="button" class="btn btn-outline-info" >Ver logros</button>
+                              <button id="myBtn" type="button" class="btn btn-outline-danger btn-rounded waves-effect" >Ver logros</button>
                             </a>
                           </div>
                         </div>
@@ -61,7 +61,7 @@
                           </div>
                           <div class="flip-card-back2 d-flex align-items-center justify-content-center">
                             <a data-toggle="modal" href="#myModal">
-                              <button id="myBtn" type="button" class="btn btn-outline-info" >Ver logros</button>
+                              <button id="myBtn" type="button" class="btn btn-outline-pink btn-rounded waves-effect" >Ver logros</button>
                             </a>
                           </div>
                         </div>
@@ -79,7 +79,7 @@
                           </div>
                           <div class="flip-card-back2 d-flex align-items-center justify-content-center">
                             <a data-toggle="modal" href="#myModal">
-                              <button id="myBtn" type="button" class="btn btn-outline-info" >Ver logros</button>
+                              <button id="myBtn" type="button" class="btn btn-outline-success btn-rounded waves-effect" >Ver logros</button>
                             </a>
                           </div>
                         </div>
@@ -101,8 +101,8 @@
                             </div>
                           </div>
                           <div class="flip-card-back2 d-flex align-items-center justify-content-center">
-                            <a data-toggle="modal" href="#myModal">
-                              <button  id="myBtnd" type="button" class="btn btn-outline-info" >Ver logros</button>
+                            <a data-toggle="modal" href="#myModalDerecho">
+                              <button  id="myBtnd" type="button" class="btn btn-outline-info btn-rounded waves-effect" >Ver logros</button>
                             </a>
                           </div>
                         </div>
@@ -120,7 +120,7 @@
                           </div>
                           <div class="flip-card-back2 d-flex align-items-center justify-content-center">
                             <a data-toggle="modal" href="#myModal">
-                              <button id="myBtn" type="button" class="btn btn-outline-info" >Ver logros</button>
+                              <button id="myBtn" type="button" class="btn btn-outline-warning btn-rounded waves-effect" >Ver logros</button>
                             </a>
                           </div>
                         </div>
@@ -138,7 +138,7 @@
                           </div>
                           <div class="flip-card-back2 d-flex align-items-center justify-content-center">
                             <a data-toggle="modal" href="#myModal">
-                              <button id="abrir" type="button" class="btn btn-outline-info" >Ver logros</button>
+                              <button id="abrir" type="button" class="btn btn-outline-dark btn-rounded waves-effect" >Ver logros</button>
                             </a>
                           </div>
                         </div>
@@ -153,20 +153,21 @@
   </div>
 </div>
 
+<!-- Modales de logros -->
 
-
-<!-- Modal -->
+<!-- Modal Sistemas-->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
     
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
+         <h4 class="modal-title ">Logros Ingenieria en sistemas</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">TOP 10 HACK MEX 2019</h4>
+         
         </div>
         <div class="modal-body ">
-          <?php include "carrousel/sistemas.php"; ?>
+          <?php include "components/logros_carrousel/carrousel_sistemas.php"; ?>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
@@ -175,6 +176,34 @@
       
     </div>
   </div>
+  <!-- Modal Sistemas-->
+
+
+  <!-- Modal Derecho-->
+  <div class="modal fade" id="myModalDerecho" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+         <h4 class="modal-title ">Logros Derecho</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+         
+        </div>
+        <div class="modal-body ">
+          <?php include "components/logros_carrousel/carrousel_derecho.php"; ?>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- Modal Derecho-->
+
+
+  <!-- Modales de logros -->
 <?php include "components/footer.php";?>
 
 
