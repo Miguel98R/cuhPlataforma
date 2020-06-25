@@ -7,7 +7,7 @@
             <div class="row">
                 <!--Grid column-->
                     <div class="col-md-9 mb-md-0 mb-5" >
-                        <form class="red lighten-3 p-2"  id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <form class="cardStyles  p-2"  id="contact-form" name="contact-form" action="mail.php" method="POST">
                             <!--Grid row-->
                                 <div class="row">
                                     <!--Grid column-->
