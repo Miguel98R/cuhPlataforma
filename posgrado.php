@@ -25,7 +25,7 @@
                           <div class="flip-card2 col-md-4 py-2">
                             <div class="flip-card-inner2 divCard">
                               <div class="flip-card-front2 danger-color-dark">
-                                <img class="imgStyle"  src="img/LOGO-CUH.png" alt="Card image cap" >
+                                <img class="imgStyle"  src="img/LOGO-POSGRADO.png" alt="Card image cap" >
                                 <div class="card-body red darken-2">
                                   <h3 class="text-white font-weight-bold">Finanzas</h3>
                                 </div>
@@ -43,7 +43,7 @@
                           <div class="flip-card2 col-md-4 py-2">
                             <div class="flip-card-inner2 divCard">
                               <div class="flip-card-front2 pink lighten-3">
-                                <img class="imgStyle" src="img/LOGO-CUH.png" alt="Card image cap">
+                                <img class="imgStyle" src="img/LOGO-POSGRADO.png" alt="Card image cap">
                                 <div class="card-body pink lighten-1">
                                   <h3 class="text-white font-weight-bold">Administración de negocios</h3>
                                 </div>
@@ -64,7 +64,7 @@
                           <div class="flip-card2 col-md-4 py-2">
                             <div class="flip-card-inner2 divCard">
                               <div class="flip-card-front2 green lighten-2">
-                                <img class="imgStyle" src="img/LOGO-CUH.png" alt="Card image cap">
+                                <img class="imgStyle" src="img/LOGO-POSGRADO.png" alt="Card image cap">
                                 <div class="card-body green accent-3">
                                   <h3 class="text-white font-weight-bold">Derecho civil</h3>
                                 </div>
@@ -82,7 +82,7 @@
                           <div class="flip-card2 col-md-4 py-2">
                             <div class="flip-card-inner2 divCard">
                               <div class="flip-card-front2 cyan darken-3">
-                                <img class="imgStyle" src="img/LOGO-CUH.png" alt="Card image cap">
+                                <img class="imgStyle" src="img/LOGO-POSGRADO.png" alt="Card image cap">
                                 <div class="card-body cyan darken-2">
                                   <h3 class="text-white font-weight-bold">Formación docente</h3>
                                 </div>
@@ -103,7 +103,7 @@
                           <div class="flip-card2 col-md-4 py-2">
                             <div class="flip-card-inner2 divCard">
                               <div class="flip-card-front2 lime darken-4">
-                                <img class="imgStyle" src="img/LOGO-CUH.png" alt="Card image cap">
+                                <img class="imgStyle" src="img/LOGO-POSGRADO.png" alt="Card image cap">
                                 <div class="card-body lime darken-3">
                                   <h3 class="text-white font-weight-bold">Estrategias de intervención en problemas de aprendizaje</h3>
                                 </div>
@@ -121,7 +121,7 @@
                           <div class="flip-card2 col-md-4 py-2">
                             <div class="flip-card-inner2 divCard">
                               <div class="flip-card-front2 blue-grey darken-4">
-                                <img class="imgStyle" src="img/LOGO-CUH.png" alt="Card image cap">
+                                <img class="imgStyle" src="img/LOGO-POSGRADO.png" alt="Card image cap">
                                 <div class="card-body blue-grey darken-3">
                                   <h3 class="text-white font-weight-bold">Derecho procesal penal acusatorio</h3>
                                 </div>
