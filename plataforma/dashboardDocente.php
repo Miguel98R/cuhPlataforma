@@ -42,22 +42,15 @@
                    
                   </h4>
                   <p class="text-white font-weight-bolder text-center justify-content-center align-content-center "> Matricula: 55567CUH</p>
-                    <p class="text-white font-weight-bolder text-center justify-content-center align-content-center ">  Bimestre:12</p>
-             
-                   
-
+                
+                  
                   </div>
                  
 
                 </div>
                
                 
-                
-                
-                
-                
-                
-                
+              
                 
                 <?php }
                  
@@ -94,52 +87,32 @@
     </li>
     <li class="nav-item">
       <a class="nav-link text-white waves-light" id="follow-tab-classic-shadow" data-toggle="tab" href="#follow-classic-shadow"
-        role="tab" aria-controls="follow-classic-shadow" aria-selected="false">Historial academico</a>
+        role="tab" aria-controls="follow-classic-shadow" aria-selected="false">Materias asignadas</a>
     </li>
      <li class="nav-item">
       <a class="nav-link text-white waves-light" id="contact-tab-classic-shadow" data-toggle="tab" href="#adeudo-classic-shadow"
-        role="tab" aria-controls="adeudo-classic-shadow" aria-selected="false">Adeudo</a>
+        role="tab" aria-controls="adeudo-classic-shadow" aria-selected="false">Alta de calificaciones</a>
     </li>
     
-     <li class="nav-item">
-      <a class="nav-link  text-white waves-light" id="servicio-tab-classic-shadow" data-toggle="tab" href="#servicio-classic-shadow"
-        role="tab" aria-controls="servicio-classic-shadow" aria-selected="false">Servicio social</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white waves-light" id="protocolo-tab-classic-shadow" data-toggle="tab" href="#protocolo-classic-shadow"
-        role="tab" aria-controls="protocolo-classic-shadow" aria-selected="false">Protocolo de titulación</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-white waves-light" id="contact-tab-classic-shadow" data-toggle="tab" href="#contact-classic-shadow"
-        role="tab" aria-controls="contact-classic-shadow" aria-selected="false">Proceso de titulación</a>
-    </li>
+    
+    
+  
     
   </ul>
 
   <div class="tab-content " id="myClassicTabContentShadow">
     <div class="tab-pane fade active show" id="profile-classic-shadow" role="tabpanel" aria-labelledby="profile-tab-classic-shadow">
-     <?php  include ("components/datosPersonales.php"); ?>
+     <?php  include ("components/datosPersDocentes.php"); ?>
    
     </div>
     <div class="tab-pane fade" id="follow-classic-shadow" role="tabpanel" aria-labelledby="follow-tab-classic-shadow">
-       <?php  include ("components/historialAcademico.php"); ?>
+       <?php  include ("components/materiasAsignadas.php"); ?>
     </div>
     <div class="tab-pane fade text-white" id="adeudo-classic-shadow" role="tabpanel" aria-labelledby="adeudo-tab-classic-shadow">
-       <h2 class="py-5 text-white">Adeudo</h2>
-   <?php include "components/adeudo.php "?>
+ 
+   <?php include "components/subirCalificaciones.php "?>
     </div>
-      <div class="tab-pane fade text-white" id="servicio-classic-shadow" role="tabpanel" aria-labelledby="servicio-tab-classic-shadow">
-       <h2 class="py-5 text-white">Servicio social</h2>
-       <?php include "components/servicio.php" ?>
-     </div>
-      <div class="tab-pane fade text-white" id="protocolo-classic-shadow" role="tabpanel" aria-labelledby="protocolo-tab-classic-shadow">
-       <h2 class="py-5 text-white">Protocolo de titulación</h2>
-       <?php include "components/protocolo.php" ?>
-     </div>
-    <div class="tab-pane fade text-white" id="contact-classic-shadow" role="tabpanel" aria-labelledby="contact-tab-classic-shadow">
-       <h2 class="py-5 text-white">Proceso de titulación</h2>
-     <?php include "components/titulacion.php" ?>
-    </div>
+     
   
     
   </div>

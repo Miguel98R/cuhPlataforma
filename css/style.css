@@ -108,10 +108,11 @@ body {
   opacity: 88%;    
   overflow-x: hidden;
   padding-top: 16px;
+  background-color: #040640 !important;
 }
 
 .navbarPrin ul{
-  background-color: #040640 !important;
+  
 }
   
 .navbarPrin a {
@@ -134,8 +135,12 @@ body {
 }
 
 @media screen and (max-height: 450px) {
-  .navbarPrin {padding-top: 15px;}
+  .navbarPrin {padding-top: 15px;
+    width: 10px;}
   .navbarPrin a {font-size: 13px;}
+
+  
+  
 }
 .container{
   max-width: 80%;

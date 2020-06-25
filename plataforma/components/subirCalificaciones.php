@@ -3,8 +3,10 @@
 
         <h2 class="py-4">Subir Calificaciones</h2>
 
-        <h5 class="py-2">Completa la siguiente información</h5>
-        <table class="table table-responsive ">
+       
+      <div class="">
+
+    <table class="table table-striped">
             <thead class="cabeza text-white ">
                 <tr>
                     <th scope="col"></th>
@@ -28,7 +30,7 @@
                                 <option>Seleccione:</option>
                                 <?php
                                 include ("./util/conexion.php");
-                               $consulta ="SELECT T3.id,T3.nombre_grupo FROM materias_asignada T1 INNER JOIN docentes T2 ON T1.id_docente=T2.id INNER JOIN grupo T3 ON T1.id_grupo=T3.id INNER JOIN materias T4 ON T1.id_materia=T4.id INNER JOIN usuarios T5 ON T2.id_usuario = T5.id WHERE T5.userName = '$user';";
+                               $consulta ="SELECT DISTINCT T3.id,T3.nombre_grupo FROM materias_asignada T1 INNER JOIN docentes T2 ON T1.id_docente=T2.id INNER JOIN grupo T3 ON T1.id_grupo=T3.id INNER JOIN materias T4 ON T1.id_materia=T4.id INNER JOIN usuarios T5 ON T2.id_usuario = T5.id WHERE T5.userName = '$user';";
          
                                
                                  
@@ -47,7 +49,7 @@
                                 <option>Seleccione:</option>
                                 <?php
                               
-                                 $consulta ="SELECT id,nombre,apellido_p,apellido_m FROM alumnos ";
+                                 $consulta ="SELECT id,nombre,apellido_p,apellido_m FROM alumnos WHERE id_c_carrera = 1 ";
 
                                  
                                  
@@ -118,6 +120,7 @@
 
         </table>
 
+    </div>
     </div>
 
 </div>
