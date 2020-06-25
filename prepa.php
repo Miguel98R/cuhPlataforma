@@ -23,16 +23,16 @@
       <div class="col-md-8">
           <div class="jumbotron cardStyles jumbotron-fluid">
   <div class="container">
-    <h2 class="display-4">Objetivos Generales</h2>
-    <p class="lead" style="text-justify">Ofrecer al estudiante una formación metodológica e integral que lo capacite para el estudio de una licenciatura adquiriendo los conocimientos científicos, valores éticos, morales, cívicos y culturales que le permita desarrollar una actitud emprendedora para crear y transformar su entorno.</p>
+    <h3 class="display-4">OBJETIVOS GENERALES</h3>
+    <p class="lead text-justify" >Ofrecer al estudiante una formación metodológica e integral que lo capacite para el estudio de una licenciatura adquiriendo los conocimientos científicos, valores éticos, morales, cívicos y culturales que le permita desarrollar una actitud emprendedora para crear y transformar su entorno.</p>
   </div>
 </div>
       </div>
       <div class="col-md-4">
             <div class="container">          
-                    <div class="alert alert-primary" role="alert">
-                   <p> <strong class="font-weight-bold">Tipo de Ciclo:</strong> Mensual | Bimestral</p>
-                        <p><strong  class="font-weight-bold">Termina tu prepa en:</strong> 1 Año 10 Meses</p>                 
+                    <div class="alert text-white" role="alert" style="background-color: #304ffe;">
+                   <p> <strong class="font-weight-bold">Tipo de Ciclo: <br></strong> Mensual | Bimestral</p>
+                        <p><strong  class="font-weight-bold">Termina tu prepa en: <br></strong> 1 Año 10 Meses</p>                 
                     </div>
                 </div>
       </div>
@@ -52,11 +52,11 @@
       </a>
     </div>
     <!--Card content-->
-    <div class="card-body bg-uno text-white">
+    <div class="card-body cardStyles">
       <!--Title-->
       <h4 class="card-title">Te ofrecemos:</h4>
       <!--Text-->
-      <p class="">Un plan de estudios dinámico, interdisciplinario, intensivo, presencial, activo y participativo con un sistema mensual escolarizado, con grupos reducidos, profesorado eficaz y altamente capacitado, horarios flexibles, instalaciones adecuadas, permitiendo también a las personas trabajadoras continuar con sus estudios de nivel medio superior.
+      <p class="text-justify">Un plan de estudios dinámico, interdisciplinario, intensivo, presencial, activo y participativo con un sistema mensual escolarizado, con grupos reducidos, profesorado eficaz y altamente capacitado, horarios flexibles, instalaciones adecuadas, permitiendo también a las personas trabajadoras continuar con sus estudios de nivel medio superior.
 Nuestro plan de estudios está estructurado con 38 asignaturas distribuidas en 6 módulos que proporcionan conocimientos actuales necesarios para responder satisfactoriamente a los retos y demandas de estudios superiores y sociedad en conjunto.</p>
       <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->     
     </div>
@@ -73,11 +73,11 @@ Nuestro plan de estudios está estructurado con 38 asignaturas distribuidas en 6
       </a>
     </div>
     <!--Card content-->
-    <div class="card-body bg-uno text-white">
+    <div class="card-body cardStyles">
       <!--Title-->
       <h4 class="card-title">Perfil del Aspirante</h4>
       <!--Text-->
-      <p class=" ">
+      <p class="text-justify ">
         <ul class="text-left ">
             <li>Convicción para iniciar, continuar o concluir sus estudios de nivel medio superior.</li>
              <li>Capacidad de trabajo en equipo.</li>
@@ -100,11 +100,11 @@ Nuestro plan de estudios está estructurado con 38 asignaturas distribuidas en 6
       </a>
     </div>
     <!--Card content-->
-     <div class="card-body bg-uno text-white">
+     <div class="card-body cardStyles">
       <!--Title-->
-      <h4 class="card-title">Perfil de Egresado</h4>
+      <strong><h4 class="card-title">Perfil de Egresado</h4></strong>
       <!--Text-->
-      <p class="">Al término del bachillerato el egresado será capaz de:
+      <p class="text-justify">Al término del bachillerato el egresado será capaz de:
 *Obtener los conocimientos, métodos y técnicas necesarias para incorporarse al mundo laboral o continuar su formación profesional a nivel superior.
 
 *Desarrollar un pensamiento crítico y analítico.
