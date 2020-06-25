@@ -4,7 +4,7 @@
       <!-- Start your project here-->   
         <?php include "components/header.php";?>
           <div class="container">
-            <div class="menuAboutUs text-center" style="  background-image: url(img/fondo.jpg);">
+            <div class="menuAboutUs text-center" style="box-shadow: 1px 2px 16px -2px rgba(0,0,0,0.75);">
               <!-- Card -->
                 <div class="view overlay px-2 py-2">
                   <img style="width: 100%; height: 600px;"class="card-img-top" src="img/posgrado3.jpg  "alt="Card image cap">

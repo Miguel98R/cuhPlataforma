@@ -4,7 +4,7 @@
       <?php include "components/header.php";?>
         <div class="container">
           <?php include "components/nav.php";?>
-            <div class="menuAboutUs text-center" style="  background-image: url(img/fondo.jpg);">
+            <div class="menuAboutUs text-center" style="box-shadow: 1px 2px 16px -2px rgba(0,0,0,0.75);">
               <section class="py-5 px-5">
                 <!-- Card deck -->
                   <div class="card-deck">

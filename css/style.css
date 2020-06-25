@@ -2,8 +2,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.body {
-  background-color: red;
+body {
+  background-image: url('../img/fondo2.jpg');
+  width: auto;
+  height: auto;
 }
 
 .contenedor {
