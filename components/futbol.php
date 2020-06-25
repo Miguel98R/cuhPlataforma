@@ -51,6 +51,7 @@
 </div>
 <!--/.Carousel Wrapper-->
             </blockquote>
+            <button class="btn " type="button"> visorias</button>
         </div>
         </div>
 

@@ -24,7 +24,7 @@
       <div class="col-md-8">
           <div class="jumbotron cardStyles jumbotron-fluid">
   <div class="container">
-    <h3 class="display-4">OBJETIVOS GENERALES</h3>
+    <h5 class="display-4">OBJETIVOS GENERALES</h5>
     <p class="lead text-justify" >Ofrecer al estudiante una formación metodológica e integral que lo capacite para el estudio de una licenciatura adquiriendo los conocimientos científicos, valores éticos, morales, cívicos y culturales que le permita desarrollar una actitud emprendedora para crear y transformar su entorno.</p>
   </div>
 </div>
