@@ -5,6 +5,7 @@
             style=" position: fixed;top: 80%;right: 1%;z-index: 100;" src="img/top.png"></a>
 
     <header id="cabeza">
+      <?php inlclude "components/nav.php" ?>
         
         <div class="container-fluid cabeza">
             <div class="container-fluid ">

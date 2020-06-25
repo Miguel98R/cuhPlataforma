@@ -1,6 +1,13 @@
-<!-- Image and text -->
-<nav class="navbar navbar-light navegacion">
-    <a class="navbar-brand" href="#">
-         <img src="./img/LOGO-CUH.png" width="80" height="80" class="d-inline-block align-top" alt="">
-        <span class="text-white"> Plataforma CUH/span> </a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-right" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+
+            <a class="nav-item nav-link" href="index.php">Cerrar sesión</a>
+        </div>
+    </div>
 </nav>
