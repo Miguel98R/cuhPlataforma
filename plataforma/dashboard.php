@@ -10,7 +10,7 @@
      <?php include "components/nav.php" ?>
      <section class="py-2">
          <div class="container py-4 alert alert-danger alert-dismissible fade show" role="alert">
-  <strong>AVISO!</strong> aun no se a realizado tu pago del mes : <strong>JUNIO</strong> por favor de realizarlo a la brevedad
+  <strong>AVISO!</strong> aun no se ve refñejado tu pago del mes : <strong>JUNIO</strong> por favor de realizarlo a la brevedad
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
@@ -128,6 +128,7 @@
     </div>
     <div class="tab-pane fade text-white" id="adeudo-classic-shadow" role="tabpanel" aria-labelledby="adeudo-tab-classic-shadow">
        <h2 class="py-5 text-white">Adeudo</h2>
+       <h2 class="text-white">No. cuenta: 04703452190</h2>
    <?php include "components/adeudo.php "?>
     </div>
       <div class="tab-pane fade text-white" id="servicio-classic-shadow" role="tabpanel" aria-labelledby="servicio-tab-classic-shadow">
