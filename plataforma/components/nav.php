@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse text-right" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
 
-            <a class="text-white nav-item nav-link" href="index.php">Cerrar sesión</a>
+            <a class="text-white nav-item nav-link" href="index.php"> <i class="fas fa-sign-out-alt"></i>&nbsp;Cerrar sesión</a>
         </div>
     </div>
 </nav>

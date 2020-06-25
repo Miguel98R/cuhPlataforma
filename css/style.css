@@ -98,21 +98,24 @@ body {
   color:aliceblue;
 }
 
-.sidebar {
+.navbarPrin {
   height: 100%;
   width: 125px;
   position: fixed;
   z-index: 1; 
   top: 0;
   left: 0;
-  background-color: #040640;
   opacity: 88%;    
   overflow-x: hidden;
   padding-top: 16px;
-  box-shadow: 7px 4px 14px -3px rgba(0,0,0,0.75);
+  background-color: #040640 !important;
+}
+
+.navbarPrin ul{
+  
 }
   
-.sidebar a {
+.navbarPrin a {
   padding: 8px 6px 8px 6px;
   text-decoration: none;
   font-size: 16px;
@@ -120,7 +123,7 @@ body {
   display: block;
 }
   
-.sidebar a:hover {
+.navbarPrin a:hover {
   background-color: #cfd8dc;
   color: #040640;
   box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.75);
@@ -132,14 +135,18 @@ body {
 }
 
 @media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 13px;}
+  .navbarPrin {padding-top: 15px;
+    width: 10px;}
+  .navbarPrin a {font-size: 13px;}
+
+  
+  
 }
 .container{
   max-width: 80%;
 }
 .nav-pills .nav-link.active{
-  background-color: #044190;
+  background-color: #040640;;
   box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.75);
   color: white !important;
 }
