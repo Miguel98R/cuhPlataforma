@@ -34,8 +34,8 @@
       </div>
     <!-- Footer Elements -->
     <!-- Copyright -->
-      <div class="footer-copyright text-center py-3" style="color:black"> © 2020 Copyright:
-        <a href="#" style="color:black"> Centro Universitario Hidalguense </a>
+      <div class="footer-copyright text-center py-3" style="color:white"> © 2020 Copyright:
+        <a href="#" style="color:white"> Centro Universitario Hidalguense </a>
       </div>
     <!-- Copyright -->
   </footer>
