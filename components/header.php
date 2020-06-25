@@ -10,5 +10,10 @@
       <h1 class=" text-center" style="font-family: Times New Roman ; font-style: italic;color:white ">CENTRO UNIVERSITARIO HIDALGUENSE </h1>
       <h4 class=" text-center" style="font-family: 'Great Vibes', cursive;font-size:40px;color:white">La Sabiduria Es Nuestra Fuerza</h4>
     </div> 
-</div>    
+</div>  
+<script>
+   $('#myModal').on('shown.bs.modal', function () {
+$('#myModal').modal('show');
+})
+</script>  
 </header>

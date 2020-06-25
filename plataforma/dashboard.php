@@ -1,4 +1,6 @@
 <?php include "components/head.php";?>
+
+
 <body>
 
     <a class="d-none d-sm-none  d-md-none  d-lg-block d-xl-blocks" href="#cabeza"> <img title="Ir al inicio"
@@ -6,6 +8,16 @@
 
     <header id="cabeza">
      <?php include "components/nav.php" ?>
+     <section class="py-2">
+         <div class="container py-4 alert alert-danger alert-dismissible fade show" role="alert">
+  <strong>AVISO!</strong> aun no se a realizado tu pago del mes : <strong>JUNIO</strong> por favor de realizarlo a la brevedad
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+     
+     </section>
+ 
         
         <div class="container-fluid cabeza">
             <div class="container-fluid ">
@@ -98,10 +110,7 @@
       <a class="nav-link  text-white waves-light" id="servicio-tab-classic-shadow" data-toggle="tab" href="#servicio-classic-shadow"
         role="tab" aria-controls="servicio-classic-shadow" aria-selected="false">Servicio social</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link text-white waves-light" id="protocolo-tab-classic-shadow" data-toggle="tab" href="#protocolo-classic-shadow"
-        role="tab" aria-controls="protocolo-classic-shadow" aria-selected="false">Protocolo de titulación</a>
-    </li>
+   
     <li class="nav-item">
       <a class="nav-link text-white waves-light" id="contact-tab-classic-shadow" data-toggle="tab" href="#contact-classic-shadow"
         role="tab" aria-controls="contact-classic-shadow" aria-selected="false">Proceso de titulación</a>
@@ -125,10 +134,7 @@
        <h2 class="py-5 text-white">Servicio social</h2>
        <?php include "components/servicio.php" ?>
      </div>
-      <div class="tab-pane fade text-white" id="protocolo-classic-shadow" role="tabpanel" aria-labelledby="protocolo-tab-classic-shadow">
-       <h2 class="py-5 text-white">Protocolo de titulación</h2>
-       <?php include "components/protocolo.php" ?>
-     </div>
+     
     <div class="tab-pane fade text-white" id="contact-classic-shadow" role="tabpanel" aria-labelledby="contact-tab-classic-shadow">
        <h2 class="py-5 text-white">Proceso de titulación</h2>
      <?php include "components/titulacion.php" ?>
@@ -151,6 +157,26 @@
         </div>
 
 
+<!-- Modal -->
+<div class="modal" tabindex="-1" role="dialog" id="MyModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
    
 

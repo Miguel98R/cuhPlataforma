@@ -4,6 +4,13 @@
  Aun no puedes Titularte
 
 </div>
+<hr class="bg-white">
+
+<div class="container role="alert">
+¡ Ya puedes solicitar tu protocolo de titulación ! <br>
+
+<button class=" btn btn-primary"> Solicitar ahora</button>
+</div>
 
 <hr class="bg-white">
 
