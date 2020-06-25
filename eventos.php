@@ -4,6 +4,7 @@
       <!-- Start your project here-->    
         <?php include "components/header.php";?>
           <div class="content">
+          <?php include "components/pluginWA.php" ;?>
             <div class="container text-center menuAboutUs" style="box-shadow: 1px 2px 16px -2px rgba(0,0,0,0.75);">        
               <a href="https://api.whatsapp.com/send?phone=527714349366&text=Hola%2C%20deseo%20adquirir%20un%20servicio%20con%20ustedes."
               target="_blank">

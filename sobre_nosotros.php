@@ -4,6 +4,7 @@
      <!-- Start your project here-->    
       <?php include "components/header.php";?>
         <div class="container">
+           <?php include "components/pluginWA.php" ;?>
           <div class="text-center menuAboutUs" style="box-shadow: 1px 2px 16px -2px rgba(0,0,0,0.75);">    
             <section class="py-2 px-2">
               <!-- Classic tabs -->
