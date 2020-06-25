@@ -33,11 +33,11 @@
             <div class="container text-center py-4" style="padding-bottom: 100px !important;">
                 <div class="row">
 
-                    <div class="col-md-4" style="width:280px;height:300px;">
+                    <div class="col-md-4 sizedivCard">
                       <div class="flip-card2 col-md-4 py-2">
                         <div class="flip-card-inner2 divCard">
                           <div class="flip-card-front2 danger-color-dark">
-                            <img  src="img/sistemas.png" alt="Card image cap" style="width:250px;height:250px;">
+                            <img class="imgStyle" src="img/sistemas.png" alt="Card image cap">
                             <div class="card-body red darken-2">
                               <h3 class="text-white font-weight-bold">Ingeniería en sistemas computacionales</h3>
                             </div>
@@ -51,11 +51,11 @@
                       </div>
                     </div>
 
-                    <div class="col-md-4" style="width:280px;height:300px;">
+                    <div class="col-md-4 sizedivCard">
                       <div class="flip-card2 col-md-4 py-2">
                         <div class="flip-card-inner2 divCard">
                           <div class="flip-card-front2 red lighten-3">
-                            <img  src="img/administracion.png" alt="Card image cap" style="width:250px;height:250px;">
+                            <img class="imgStyle" src="img/administracion.png" alt="Card image cap">
                             <div class="card-body pink lighten-1">
                               <h3 class="text-white font-weight-bold">Administración y sistemas computacionales</h3>
                             </div>
@@ -69,11 +69,11 @@
                       </div>
                     </div>
 
-                    <div class="col-md-4" style="width:280px;height:300px;">
+                    <div class="col-md-4 sizedivCard">
                       <div class="flip-card2 col-md-4 py-2">
                         <div class="flip-card-inner2 divCard">
                           <div class="flip-card-front2 green lighten-2">
-                            <img  src="img/contaduria.png" alt="Card image cap" style="width:250px;height:250px;">
+                            <img class="imgStyle" src="img/contaduria.png" alt="Card image cap">
                             <div class="card-body green accent-3">
                               <h3 class="text-white font-weight-bold">Contaduría y sistemas fiscales</h3>
                             </div>
@@ -90,13 +90,13 @@
                   </div>
 
                   
-                  <div class="row py-3" style="margin-top: 160px;">
+                  <div class="row py-3 sizedivCard">
 
                     <div class="col-md-4" style="width:280px;height:300px;">
                       <div class="flip-card2 col-md-4 py-2">
                       <div class="flip-card-inner2 divCard" >
                           <div class="flip-card-front2 cyan darken-3">
-                            <img  src="img/derecho.png" alt="Card image cap" style="width:250px;height:250px;">
+                            <img class="imgStyle" src="img/derecho.png" alt="Card image cap">
                             <div class="card-body cyan darken-2">
                               <h3 class="text-white font-weight-bold">Derecho</h3>
                             </div>
@@ -110,11 +110,11 @@
                       </div>
                     </div>
 
-                    <div class="col-md-4" style="width:280px;height:300px;">
+                    <div class="col-md-4 sizedivCard">
                       <div class="flip-card2 col-md-4 py-2">
                         <div class="flip-card-inner2 divCard">
                           <div class="flip-card-front2 lime darken-4">
-                            <img  src="img/psicologia.png" alt="Card image cap" style="width:250px;height:250px;">
+                            <img class="imgStyle" src="img/psicologia.png" alt="Card image cap">
                             <div class="card-body lime darken-3">
                               <h3 class="text-white font-weight-bold">Psicología</h3>
                             </div>
@@ -128,7 +128,7 @@
                       </div>
                     </div>
 
-                    <div class="col-md-4" style="width:280px;height:300px;">
+                    <div class="col-md-4 sizedivCard">
                       <div class="flip-card2 col-md-4 py-2">
                         <div class="flip-card-inner2 divCard">
                           <div class="flip-card-front2 blue-grey darken-4">

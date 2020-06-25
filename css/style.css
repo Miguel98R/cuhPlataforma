@@ -189,7 +189,16 @@ body {
 }
 
 .divCard{
-  width:280px;
+  width:290px;
   height:405px;
   box-shadow: 10px 13px 19px -5px rgba(0,0,0,0.75); 
+}
+
+.sizeDivCard{
+  width:290px;
+  height:300px;
+}
+
+.imgStyle{
+  width:250px;height:250px; margin: 5px;
 }
