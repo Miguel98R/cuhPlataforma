@@ -18,11 +18,13 @@
                 </div>              
             </div>
           </div>
-          <section>
-            <div class="container contacto text-center ">
+         
+            <div class="container-fluid w-100 ">
+             <div class="contacto container text-center ">
               <?php include "components/contacto.php";?>
+                </div>
             </div> 
-          </section>
+        
     <?php include "components/footer.php";?>
     <!-- End your project here-->
     <!-- jQuery -->

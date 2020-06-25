@@ -7,7 +7,7 @@
             <div class="row">
                 <!--Grid column-->
                     <div class="col-md-9 mb-md-0 mb-5" >
-                        <form class="border border-light p-5" style="box-shadow: 1px 2px 16px -2px rgba(0,0,0,0.75);" id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <form class="red lighten-3 p-2"  id="contact-form" name="contact-form" action="mail.php" method="POST">
                             <!--Grid row-->
                                 <div class="row">
                                     <!--Grid column-->
@@ -40,7 +40,7 @@
                                 </div>
                             <!--Grid row-->
                         </form>
-                        <div class="text-center text-md-left">
+                        <div class="text-center ">
                             <a class="btn" onclick="document.getElementById('contact-form').submit();">Enviar</a>
                         </div>
                         <div class="status"></div>
