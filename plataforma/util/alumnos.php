@@ -10,12 +10,17 @@ $domicilio = $_POST['domicilioAlumno'];
 $grupo = $_POST['grupoAlumno'];
 
 
+  $IdentificadorAleatorio=rand(1000,4000);
+
+
+
 $nombreUser=str_replace(" ","",$nombre);
 
 $usuario=$nombreUser.$app."@cuh.com";
 $contrasena=$nombreUser."2020CUH";
+$Matricula = "CUH".$IdentificadorAleatorio.$nombre[0] . $app[0] . $apm[0] ;
     
-$consulta1 =  "INSERT INTO usuarios (userName,contrasena,rol) VALUES ('$usuario','$contrasena','alumno');";
+$consulta1 =  "INSERT INTO usuarios (userName,matricula,contrasena,rol) VALUES ('$usuario','$Matricula','$contrasena','alumno');";
 
 $result1=mysqli_query($conn,$consulta1);
 

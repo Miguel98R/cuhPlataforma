@@ -5,7 +5,7 @@
             style=" position: fixed;top: 80%;right: 1%;z-index: 100;" src="img/top.png"></a>
 
     <header id="cabeza">
-      <?php inlclude "components/nav.php" ?>
+     <?php include "components/nav.php" ?>
         
         <div class="container-fluid cabeza">
             <div class="container-fluid ">
@@ -41,7 +41,7 @@
                     <?php echo $texto_completo ?> 
                    
                   </h4>
-                  <p class="text-white font-weight-bolder text-center justify-content-center align-content-center "> Matricula: 55567CUH</p>
+                  <p class="text-white font-weight-bolder text-center justify-content-center align-content-center "> Matricula: <?php echo $datos['matricula'] ?> </p>
                     <p class="text-white font-weight-bolder text-center justify-content-center align-content-center ">  Bimestre:12</p>
              
                    
@@ -50,14 +50,7 @@
                  
 
                 </div>
-               
-                
-                
-                
-                
-                
-                
-                
+
                 
                 <?php }
                  
