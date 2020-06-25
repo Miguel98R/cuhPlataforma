@@ -1,5 +1,5 @@
 <!--Section: Contact v.2-->
-    <section class="mb-4" style="color:#1c2cb8">
+    <section class="mb-4" style="color:white">
         <!--Section heading-->
         <h2 class="h1-responsive font-weight-bold text-center my-4">Contacto</h2>
         <!--Section description-->

@@ -24,7 +24,8 @@
                             <div class="card  danger-color-dark" style="width: 18rem;">
                               <a href=""></a> 
                               <div class="card-body red darken-2">
-                                <button class="btn text-white font-weight-bold">Finanzas</button>
+                                <h3 class="card-title pt-2 text-white"><strong>Finanzas</strong></h3>
+                                <button class="btn btn-outline-primary text-white font-weight-bold"><i class="fas fa-clone left"></i>Ver más</button>
                               </div>
                             </div>             
                           </div>
