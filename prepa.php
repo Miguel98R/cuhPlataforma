@@ -13,8 +13,7 @@
     <img class="card-img-top" src="img/prepa3.jpg"
       alt="Card image cap">
     <a href="#!">
-      <div class="mask rgba-white-slight">
-       
+      <div class="mask rgba-white-slight">       
       </div>
     </a>
   </div>
@@ -22,10 +21,10 @@
   <div class="container-fluid py-2">
        <div class="row">
       <div class="col-md-8">
-          <div class="jumbotron bg-uno text-white jumbotron-fluid">
+          <div class="jumbotron cardStyles jumbotron-fluid">
   <div class="container">
     <h2 class="display-4">Objetivos Generales</h2>
-    <p class="lead">Ofrecer al estudiante una formación metodológica e integral que lo capacite para el estudio de una licenciatura adquiriendo los conocimientos científicos, valores éticos, morales, cívicos y culturales que le permita desarrollar una actitud emprendedora para crear y transformar su entorno.</p>
+    <p class="lead" style="text-justify">Ofrecer al estudiante una formación metodológica e integral que lo capacite para el estudio de una licenciatura adquiriendo los conocimientos científicos, valores éticos, morales, cívicos y culturales que le permita desarrollar una actitud emprendedora para crear y transformar su entorno.</p>
   </div>
 </div>
       </div>
