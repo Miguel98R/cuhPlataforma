@@ -2,9 +2,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body{  
-  background-image: linear-gradient(to left, #051937, #1e4b6c, #40849f, #70c0ce, #adfff9);   
-}
 .contenedor {
   background-image: url('../img/fondo1.png');
   /* background-color: #09426d; */
@@ -183,4 +180,9 @@ body{
   background-color: #fff;
   color: white;
   transform: rotateY(180deg);
+}
+
+.btn {
+  background-color: #1c2cb8;
+  color:white;
 }

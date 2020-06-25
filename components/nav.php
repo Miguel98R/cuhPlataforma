@@ -35,7 +35,7 @@
   <!-- </div> -->
 <!-- </nav> -->
  
- <div class="sidebar" >
+ <div class="sidebar justify-content-md-center justify-content-start" >
   <a href="index.php" ><i class="fa fa-fw fa-home"></i> Inicio</a>
   <a href="sobre_nosotros.php" ><i class="fa fa-fw fa-users"></i> Nosotros</a>
   <a href="./plataforma/index.php" target=_blank ><i class="fa fa-fw fa-laptop"></i> Plataforma</a>
