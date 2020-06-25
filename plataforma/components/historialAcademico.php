@@ -1,7 +1,14 @@
+
 <div class="container">
     <div class="justify-content-center align-content-center " id="historialAcademico">
-        <h2 class="py-5 text-white">Historial académico</h2>
+        <h2 class="py-5 text-white">Calificaciones </h2>
         <table class="table table-striped">
+        <div class="row">
+           <div class="col-md-4"></h4></div>
+            <div class="col-md-4"> <h4 class="text-info">PERIODO ABRIL - JUNIO 2020 </h4></div>
+             <div class="col-md-4"> <button class="btn btn-primary">Solicita tu historial academico</button></div>
+        </div>
+       
             <thead class="cabeza text-white ">
                 <tr>
                     <th scope="col"></th>
@@ -43,4 +50,17 @@ ON T1.id_alumno = T2.id INNER JOIN docentes T3 ON T1.id_docente= T3.id INNER JOI
 
 
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
